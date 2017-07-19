@@ -11,7 +11,7 @@ label{display:inline-block;width:100px;margin-bottom:10px;}
   
 <body>
 
-<form method="post" action="file1.php">
+<form method="post" action="file.php">
 <label>Instructor Number</label>
 <input type="text" name="instructorNumber"  />
 <br />
