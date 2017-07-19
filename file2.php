@@ -37,7 +37,7 @@ if ($result->num_rows > 0) {
         $postalCode =  $row["postalCode"];
         $country = $row["country"];
         echo "  <div style='margin:30px 0px;'>
-        // Id: $id<br />
+  
            Instructor Number: $instructorNumber<br />
            Instructor Name: $instructorName<br />
            Email: $email<br />
