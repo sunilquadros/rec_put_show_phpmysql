@@ -49,7 +49,7 @@ $country=$_POST['country'];
 // mysqli_query($conn"INSERT INTO instructors(first_name,last_name,department,email)
 // 				VALUES('$first_name','$last_name','$department','$email')");
 // ***********  Example of mysql insert conn ********* //
-echo $instructorNumber; 
+// echo $instructorNumber; 
 $sql = "INSERT INTO instructors (instructorNumber, instructorName, email, city, state, postalCode, country) VALUES ('$instructorNumber', '$instructorName', '$email', '$city', '$state', '$postalCode', '$country')";
 if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";
